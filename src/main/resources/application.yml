@@ -1,0 +1,5 @@
+server:
+  port: 8083
+arcus:
+  zk-address: localhost:2181,localhost:2182,localhost:2183
+  service-code: test

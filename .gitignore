@@ -3,8 +3,9 @@ HELP.md
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
-!**/src/test/**/build/
-
+!**/src/jam2in.test/**/build/
+libs/
+test.mv.db
 ### STS ###
 .apt_generated
 .classpath
@@ -15,7 +16,7 @@ build/
 .sts4-cache
 bin/
 !**/src/main/**/bin/
-!**/src/test/**/bin/
+!**/src/jam2in.test/**/bin/
 
 ### IntelliJ IDEA ###
 .idea
@@ -24,7 +25,7 @@ bin/
 *.ipr
 out/
 !**/src/main/**/out/
-!**/src/test/**/out/
+!**/src/jam2in.test/**/out/
 
 ### NetBeans ###
 /nbproject/private/

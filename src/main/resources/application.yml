@@ -1,5 +1,22 @@
 server:
   port: 8083
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:./test;MODE=MySQL
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database: h2
+    database-platform: org.hibernate.dialect.H2Dialect
+    generate-ddl: true
+    show-sql: true
+    open-in-view: false
+  jmx:
+    enabled: true
 arcus:
-  zk-address: localhost:2181,localhost:2182,localhost:2183
+  zk-address: localhost:2181
   service-code: test

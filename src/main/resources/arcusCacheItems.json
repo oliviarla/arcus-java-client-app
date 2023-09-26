@@ -1,0 +1,5 @@
+{
+  "target": "com.jam2in.app.feed.service.AppCommonFeedService.getFeeds",
+  "expireTime": "100",
+  "enable": true
+}

@@ -1,0 +1,10 @@
+{
+  "address": "localhost:2181",
+  "serviceCode": "test",
+  "poolSize": 8,
+  "asyncOperationTimeout": 700,
+  "enableCache": true,
+  "cronProperty": "0 0/1 * * * *",
+  "globalPrefix": "TEST",
+  "recaching.type": "SUS"
+}
